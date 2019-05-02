@@ -2,33 +2,30 @@
   <v-container pa-0>
     <v-layout column>
       <v-flex mb-2>
-        <titlebar-Home/>
+        <top-nav/>
+      </v-flex>
+      <v-flex>
+        <list-member/>
       </v-flex>
 
-      <vflex>
-        <card-menu/>
-      </vflex>
-      
       <v-flex>
         <bottom-nav/>
       </v-flex>
-      
     </v-layout>
-    
   </v-container>
 </template>
 
 <script>
-import TitlebarHome from "../components/TitlebarHome";
+import TopNav from "../components/TopNav";
 import BottomNav from "../components/BottomNav";
-import CardMenu from "../components/CardMenu"
+import ListMember from "../components/ListMember";
 
 export default {
-  name: "home",
+  name: "mapdriver",
   components: {
-    TitlebarHome,
+    TopNav,
     BottomNav,
-    CardMenu,
+    ListMember
   }
 };
 </script>
