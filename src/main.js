@@ -4,7 +4,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import Vuetify from 'vuetify'
+<<<<<<< HEAD
 import * as VueGoogleMaps from 'vue2-google-maps'
+=======
+>>>>>>> master
 
 Vue.use(Vuetify)
 Vue.config.productionTip = false
